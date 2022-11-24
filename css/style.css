@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+#menuTop {
+    border-radius: 0 0 15px 15px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#conteudoTotal {
+    border-radius: 15px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(black,black), radial-gradient(circle at top, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 550px;
+}
+#rodape {
+    border: double 2px transparent;
+    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 15px 15px 0 0;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#menuL {     
+    float: left;  
+    border: double 1px transparent;
+    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 15px;
+    background-color: black;
+    height: auto;
+    width: 250px;
+    margin: 1%;
+}
+#conteudoCentral {   
+    display: block; 
+    float: left;
+    border: double 1px transparent;
+    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 15px;
+    background-color: black;    
+    height: auto;
+    margin: 1%;
+    width: 700px;
+}
+/* btn-menuL  inicia*/
+#btn-menuL{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 1%;
+    color: magenta;
+    border: solid 1px cyan;
+    background-color: black;
+}
+#btn-menuL:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 1%;
+    color: cyan;
+    border: solid 1px yellow;
+    background-color: black;
+}
+/* btn-menuL  termina*/
