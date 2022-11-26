@@ -1,22 +1,23 @@
 body {
     margin: 0;
-    background-color: black;
+    background: radial-gradient(circle, rgb(21, 3, 61) 0%, rgb(21, 2, 58) 51%, rgb(22, 11, 37) 100%);
+}
+button {
+    cursor: pointer;
+    text-align:center;
 }
 #menuTop {
     border-radius: 0 0 15px 15px;
     border: solid 2px transparent;
-    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-image: linear-gradient(black, #1c1c1c, black), radial-gradient(circle at bottom, magenta, cyan);
     background-origin: border-box;
     background-clip: content-box, border-box;
     height: 50px;
     width: 100%;
+    justify-content: center;
+    display: flex;
 }
 #conteudoTotal {
-    /* border-radius: 15px;
-    border: solid 2px transparent;
-    background-image: linear-gradient(black,black), radial-gradient(circle at top, magenta, cyan);
-    background-origin: border-box;
-    background-clip: content-box, border-box; */
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -35,90 +36,77 @@ body {
     position: absolute;
     bottom: 0;
 }
-#menuL {     
-    float: left;  
-    border: double 3px transparent;
-    background-image: linear-gradient(grey,grey), radial-gradient(circle at bottom,white, darkgrey);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+#menuL {
+    float: left;
+    background: linear-gradient(black, #1c1c1c,black);
     border-radius: 15px;
-    height: auto;
     width: 220px;
     margin: 1%;
-    left: 0;    
-    display: flex;
+    left: 0;
     flex-direction: column;
     justify-content: center;
 }
-#conteudoCentral {   
-    display: block; 
+#conteudoCentral {
+    display: block;
     float: left;
-    border: double 1px transparent;
-    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    border-radius: 15px;
-    background-color: linear;    
     height: auto;
     margin: 1%;
     width: 700px;
 }
 /* btn-menuL  inicia*/
-#btn-menuL{
+#btn-menuL {
     width: 200px;
     height: 50px;
     margin: 8px;
-    background: transparent;
-    background-image: url(../img/btn-menuL.fw.png);
-    background-size: contain;
-    border: none;
-    color: grey;
-    font-weight:bolder;
-    text-decoration:none !important;
-    font-family:serif;
-    font-size: 25px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
 }
-#btn-menuL:hover{    
-    cursor: pointer;
+#btn-menuL:hover {
     width: 200px;
     height: 50px;
-    background-image: url(../img/btn-menuL-hover.fw.png);
-    background-size: contain;
-    text-shadow: 0 0 4px orangered;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px magenta;
+    box-shadow: 0 0 15px magenta;
 }
 /* btn-menuL  termina*/
 /* campo de busca inicia */
-#campBusca{
+#campBusca {
     margin: 8px;
     width: 200px;
     height: 40px;
 }
-#campBuscaInserir{
+#campBuscaInserir {
     width: 150px;
     height: 40px;
     background: linear-gradient(grey,gainsboro 30px,grey);
     border: solid 2px darkgray;
-    border-radius: 20px 0 0 20px;    
+    border-radius: 20px 0 0 20px;
     text-align: center;
     color: grey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#campBuscaInserir:focus{
+#campBuscaInserir:focus {
     outline: none;
     text-align: center;
     color: orangered;
     background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
     border: solid 2px sandybrown;
 }
-#campBuscaInserir::placeholder{
+#campBuscaInserir::placeholder {
     text-align: center;
     color: grey;
 }
-#campBuscaInserir:focus::placeholder{
+#campBuscaInserir:focus::placeholder {
     text-align: center;
     color: sandybrown;
 }
-#confirmaBusca{
+#confirmaBusca {
     float: right;
     width: 50px;
     height: 40px;
@@ -129,10 +117,156 @@ body {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#confirmaBusca:hover{
+#confirmaBusca:hover {
     cursor: pointer;
     color: orangered;
     background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
     border: solid 2px sandybrown;
 }
 /* campo de busca termina */
+/* conteudo principal inicia */
+#menuConteudoCentral {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* botoes inicia */
+#btnToxina {
+    margin: 1px;
+    border: solid 2px forestgreen;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: forestgreen;
+    font-size: 15px;
+}
+#btnToxina:hover {
+    text-shadow: 0 0 50px forestgreen;
+    box-shadow: 0 0 15px forestgreen;
+    border-radius: 0 0 0 15px;
+}
+#btnEletrico {
+    margin: 1px;
+    border: solid 2px mediumpurple;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color:mediumpurple;
+    font-size: 15px;
+}
+#btnEletrico:hover {
+    text-shadow: 0 0 50px mediumpurple;
+    box-shadow: 0 0 15px mediumpurple;
+    border-radius: 0 0 0 0;
+}
+#btnMagnetismo {
+    margin: 1px;
+    border: solid 2px royalblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: royalblue;
+    font-size: 15px;
+}
+#btnMagnetismo:hover {
+    text-shadow: 0 0 50px royalblue;
+    box-shadow: 0 0 15px royalblue;
+    border-radius: 0 0 0 0;
+}
+#btnRadiacao {
+    margin: 1px;
+    border: solid 2px greenyellow;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: greenyellow;
+    font-size: 15px;
+}
+#btnRadiacao:hover {
+    text-shadow: 0 0 50px greenyellow;
+    box-shadow: 0 0 15px greenyellow;
+    border-radius: 0 0 0 0;
+}
+#btnGlacial {
+    margin: 1px;
+    border: solid 2px dodgerblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: dodgerblue;
+    font-size: 15px;
+}
+#btnGlacial:hover {
+    text-shadow: 0 0 50px dodgerblue;
+    box-shadow: 0 0 15px dodgerblue;
+    border-radius: 0 0 0 0;
+}
+#btnIgnio {
+    margin: 1px;
+    border: solid 2px red;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: red;
+    font-size: 15px;
+}
+#btnIgnio:hover {
+    text-shadow: 0 0 50px red;
+    box-shadow: 0 0 15px red;
+    border-radius: 0 0 0 0;
+}
+#btnGasoso {
+    margin: 1px;
+    border: solid 2px yellow;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: yellow;
+    font-size: 15px;
+}
+#btnGasoso:hover {
+    text-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 15px yellow;
+    border-radius: 0 0 0 0;
+}
+#btnCorrosivo {
+    margin: 1px;
+    border: solid 2px darkgoldenrod;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: darkgoldenrod;
+    font-size: 15px;
+}
+#btnCorrosivo:hover {
+    text-shadow: 0 0 50px darkgoldenrod;
+    box-shadow: 0 0 15px darkgoldenrod;
+    border-radius: 0 0 0 0;
+}
+#btnViral {
+    margin: 1px;
+    border: solid 2px blueviolet;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: blueviolet;
+    font-size: 15px;
+}
+#btnViral:hover {
+    text-shadow: 0 0 50px blueviolet;
+    box-shadow: 0 0 15px blueviolet;
+    border-radius: 0 0 15px 0;
+}
+/* botoes termina */
+/* Display */
+.Display {
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    display: none;
+    background: linear-gradient(black, #1c1c1c,black);
+    color: aliceblue;
+}
+/* conteudo principal termina */
