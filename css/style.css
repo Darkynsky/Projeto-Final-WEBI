@@ -45,8 +45,7 @@ body {
     height: auto;
     width: 220px;
     margin: 1%;
-    left: 0;
-    position: fixed;    
+    left: 0;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +58,7 @@ body {
     background-origin: border-box;
     background-clip: content-box, border-box;
     border-radius: 15px;
-    background-color: black;    
+    background-color: linear;    
     height: auto;
     margin: 1%;
     width: 700px;
@@ -69,17 +68,71 @@ body {
     width: 200px;
     height: 50px;
     margin: 8px;
-    color: orangered;
     background: transparent;
     background-image: url(../img/btn-menuL.fw.png);
     background-size: contain;
     border: none;
+    color: grey;
+    font-weight:bolder;
+    text-decoration:none !important;
+    font-family:serif;
+    font-size: 25px;
 }
-#btn-menuL:hover{
+#btn-menuL:hover{    
+    cursor: pointer;
     width: 200px;
     height: 50px;
-    color: cyan;
     background-image: url(../img/btn-menuL-hover.fw.png);
     background-size: contain;
+    text-shadow: 0 0 4px orangered;
 }
 /* btn-menuL  termina*/
+/* campo de busca inicia */
+#campBusca{
+    margin: 8px;
+    width: 200px;
+    height: 40px;
+}
+#campBuscaInserir{
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(grey,gainsboro 30px,grey);
+    border: solid 2px darkgray;
+    border-radius: 20px 0 0 20px;    
+    text-align: center;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#campBuscaInserir:focus{
+    outline: none;
+    text-align: center;
+    color: orangered;
+    background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
+    border: solid 2px sandybrown;
+}
+#campBuscaInserir::placeholder{
+    text-align: center;
+    color: grey;
+}
+#campBuscaInserir:focus::placeholder{
+    text-align: center;
+    color: sandybrown;
+}
+#confirmaBusca{
+    float: right;
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(grey,gainsboro 30px,grey);
+    border: solid 2px darkgray;
+    border-radius: 0 20px 20px 0;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#confirmaBusca:hover{
+    cursor: pointer;
+    color: orangered;
+    background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
+    border: solid 2px sandybrown;
+}
+/* campo de busca termina */
