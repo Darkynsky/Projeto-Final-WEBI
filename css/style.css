@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    background: radial-gradient(circle, rgb(21, 3, 61) 0%, rgb(21, 2, 58) 51%, rgb(22, 11, 37) 100%);
-}
+    background: url(/img/fundo.png);
+    background-size: 500px;}
 button {
     cursor: pointer;
     text-align:center;
 }
 #menuTop {
     border-radius: 0 0 15px 15px;
-    border: solid 2px transparent;
+    border: solid 1px transparent;
     background-image: linear-gradient(black, #1c1c1c, black), radial-gradient(circle at bottom, magenta, cyan);
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -84,8 +84,8 @@ button {
 #campBuscaInserir {
     width: 150px;
     height: 40px;
-    background: linear-gradient(grey,gainsboro 30px,grey);
-    border: solid 2px darkgray;
+    background: linear-gradient(#1c1c1c,grey 30px,#1c1c1c);
+    border: solid 1px darkgray;
     border-radius: 20px 0 0 20px;
     text-align: center;
     color: grey;
@@ -94,9 +94,8 @@ button {
 #campBuscaInserir:focus {
     outline: none;
     text-align: center;
-    color: orangered;
-    background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
-    border: solid 2px sandybrown;
+    color: white;
+    box-shadow: 0 0 30px blueviolet;
 }
 #campBuscaInserir::placeholder {
     text-align: center;
@@ -104,14 +103,14 @@ button {
 }
 #campBuscaInserir:focus::placeholder {
     text-align: center;
-    color: sandybrown;
+    color: pink;
 }
 #confirmaBusca {
     float: right;
     width: 50px;
     height: 40px;
     background: linear-gradient(grey,gainsboro 30px,grey);
-    border: solid 2px darkgray;
+    border: solid 1px darkgray;
     border-radius: 0 20px 20px 0;
     color: grey;
     font-size: 20px;
@@ -119,9 +118,9 @@ button {
 }
 #confirmaBusca:hover {
     cursor: pointer;
-    color: orangered;
-    background: linear-gradient(sandybrown,gainsboro 30px,sandybrown);
-    border: solid 2px sandybrown;
+    box-shadow: 0 0 30px blueviolet;
+    text-shadow: 0 0 30px blueviolet;
+    color: blueviolet;
 }
 /* campo de busca termina */
 /* conteudo principal inicia */
