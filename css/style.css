@@ -267,5 +267,7 @@ button {
     display: none;
     background: linear-gradient(black, #1c1c1c,black);
     color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* conteudo principal termina */
