@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url(/img/fundo.png);
+    background: url(../img/fundo.png);
     background-size: 500px;}
 button {
     cursor: pointer;
@@ -134,16 +134,16 @@ button {
 /* botoes inicia */
 #btnToxina {
     margin: 1px;
-    border: solid 2px forestgreen;
+    border: solid 2px lime;
     border-radius: 0 0 15px 15px;
     background: linear-gradient(black, #1c1c1c,black);
     height: 46px;
-    color: forestgreen;
+    color: lime;
     font-size: 15px;
 }
 #btnToxina:hover {
-    text-shadow: 0 0 50px forestgreen;
-    box-shadow: 0 0 15px forestgreen;
+    text-shadow: 0 0 50px lime;
+    box-shadow: 0 0 15px lime;
     border-radius: 0 0 0 15px;
 }
 #btnEletrico {
@@ -162,61 +162,19 @@ button {
 }
 #btnMagnetismo {
     margin: 1px;
-    border: solid 2px royalblue;
+    border: solid 2px darkgray;
     border-radius: 0 0 15px 15px;
     background: linear-gradient(black, #1c1c1c,black);
     height: 46px;
-    color: royalblue;
+    color:darkgray;
     font-size: 15px;
 }
 #btnMagnetismo:hover {
-    text-shadow: 0 0 50px royalblue;
-    box-shadow: 0 0 15px royalblue;
+    text-shadow: 0 0 50px darkgray;
+    box-shadow: 0 0 15px darkgray;
     border-radius: 0 0 0 0;
 }
 #btnRadiacao {
-    margin: 1px;
-    border: solid 2px greenyellow;
-    border-radius: 0 0 15px 15px;
-    background: linear-gradient(black, #1c1c1c,black);
-    height: 46px;
-    color: greenyellow;
-    font-size: 15px;
-}
-#btnRadiacao:hover {
-    text-shadow: 0 0 50px greenyellow;
-    box-shadow: 0 0 15px greenyellow;
-    border-radius: 0 0 0 0;
-}
-#btnGlacial {
-    margin: 1px;
-    border: solid 2px dodgerblue;
-    border-radius: 0 0 15px 15px;
-    background: linear-gradient(black, #1c1c1c,black);
-    height: 46px;
-    color: dodgerblue;
-    font-size: 15px;
-}
-#btnGlacial:hover {
-    text-shadow: 0 0 50px dodgerblue;
-    box-shadow: 0 0 15px dodgerblue;
-    border-radius: 0 0 0 0;
-}
-#btnIgnio {
-    margin: 1px;
-    border: solid 2px red;
-    border-radius: 0 0 15px 15px;
-    background: linear-gradient(black, #1c1c1c,black);
-    height: 46px;
-    color: red;
-    font-size: 15px;
-}
-#btnIgnio:hover {
-    text-shadow: 0 0 50px red;
-    box-shadow: 0 0 15px red;
-    border-radius: 0 0 0 0;
-}
-#btnGasoso {
     margin: 1px;
     border: solid 2px yellow;
     border-radius: 0 0 15px 15px;
@@ -225,37 +183,93 @@ button {
     color: yellow;
     font-size: 15px;
 }
-#btnGasoso:hover {
+#btnRadiacao:hover {
     text-shadow: 0 0 50px yellow;
     box-shadow: 0 0 15px yellow;
     border-radius: 0 0 0 0;
 }
-#btnCorrosivo {
+#btnGlacial {
     margin: 1px;
-    border: solid 2px darkgoldenrod;
+    border: solid 2px royalblue;
     border-radius: 0 0 15px 15px;
     background: linear-gradient(black, #1c1c1c,black);
     height: 46px;
-    color: darkgoldenrod;
+    color: royalblue;
+    font-size: 15px;
+}
+#btnGlacial:hover {
+    text-shadow: 0 0 50px royalblue;
+    box-shadow: 0 0 15px royalblue;
+    border-radius: 0 0 0 0;
+}
+#btnIgnio {
+    margin: 1px;
+    border: solid 2px chocolate;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: chocolate;
+    font-size: 15px;
+}
+#btnIgnio:hover {
+    text-shadow: 0 0 50px chocolate;
+    box-shadow: 0 0 15px chocolate;
+    border-radius: 0 0 0 0;
+}
+#btnGasoso {
+    margin: 1px;
+    border: solid 2px mediumaquamarine;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: mediumaquamarine;
+    font-size: 15px;
+}
+#btnGasoso:hover {
+    text-shadow: 0 0 50px mediumaquamarine;
+    box-shadow: 0 0 15px mediumaquamarine;
+    border-radius: 0 0 0 0;
+}
+#btnCorrosivo {
+    margin: 1px;
+    border: solid 2px yellowgreen;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: yellowgreen;
     font-size: 15px;
 }
 #btnCorrosivo:hover {
-    text-shadow: 0 0 50px darkgoldenrod;
-    box-shadow: 0 0 15px darkgoldenrod;
+    text-shadow: 0 0 50px yellowgreen;
+    box-shadow: 0 0 15px yellowgreen;
     border-radius: 0 0 0 0;
 }
 #btnViral {
     margin: 1px;
-    border: solid 2px blueviolet;
+    border: solid 2px violet;
     border-radius: 0 0 15px 15px;
     background: linear-gradient(black, #1c1c1c,black);
     height: 46px;
-    color: blueviolet;
+    color: violet;
     font-size: 15px;
 }
 #btnViral:hover {
-    text-shadow: 0 0 50px blueviolet;
-    box-shadow: 0 0 15px blueviolet;
+    text-shadow: 0 0 50px violet;
+    box-shadow: 0 0 15px violet;
+    border-radius: 0 0 15px 0;
+}
+#btnColisivo {
+    margin: 1px;
+    border: solid 2px cadetblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: cadetblue;
+    font-size: 15px;
+}
+#btnColisivo:hover {
+    text-shadow: 0 0 50px cadetblue;
+    box-shadow: 0 0 15px cadetblue;
     border-radius: 0 0 15px 0;
 }
 /* botoes termina */

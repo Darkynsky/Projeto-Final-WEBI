@@ -1,36 +1,40 @@
 #conteudoToxina {
-    color: forestgreen;
-    box-shadow: 0 0 10px forestgreen;
+    color: lime;
+    box-shadow: 0 0 10px lime;
 }
 #conteudoGlacial {
-    color:dodgerblue;
-    box-shadow: 0 0 10px dodgerblue;    
+    color:royalblue;
+    box-shadow: 0 0 10px royalblue;    
 }
 #conteudoEletrico {
     color: mediumpurple;
     box-shadow: 0 0 10px mediumpurple;
 }
 #conteudoRadiacao {
-    color: greenyellow;
-    box-shadow: 0 0 10px greenyellow;
-}
-#conteudoMagnetismo {
-    color: royalblue;
-    box-shadow: 0 0 10px royalblue;
-}
-#conteudoIgnio {
-    color:red;
-    box-shadow: 0 0 10px red;
-}
-#conteudoGasoso {
     color: yellow;
     box-shadow: 0 0 10px yellow;
 }
+#conteudoMagnetismo {
+    color: darkgray;
+    box-shadow: 0 0 10px darkgray;
+}
+#conteudoIgnio {
+    color:chocolate;
+    box-shadow: 0 0 10px chocolate;
+}
+#conteudoGasoso {
+    color: mediumaquamarine;
+    box-shadow: 0 0 10px mediumaquamarine;
+}
 #conteudoCorrosivo {
-    color: darkgoldenrod;
-    box-shadow: 0 0 10px darkgoldenrod;
+    color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
 }
 #conteudoViral {
-    color: blueviolet;
-    box-shadow: 0 0 10px blueviolet;
+    color: violet;
+    box-shadow: 0 0 10px violet;
+}
+#conteudoColisivo {
+    color: cadetblue;
+    box-shadow: 0 0 10px cadetblue;
 }
