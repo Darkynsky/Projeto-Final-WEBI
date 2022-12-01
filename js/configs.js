@@ -290,4 +290,102 @@ buttonColisivo.addEventListener('click', function () {
         conteudoViral.style.display = 'none'
     }
 });
-/* botoes do conteudo termina*/
+/* botoes do conteudo dano elemental termina*/
+/* troca do conteudo central começa */
+var buttonContDamage = document.querySelector("#btn-contDamage");
+var buttonContArmasTK = document.querySelector("#btn-armasTK");
+var buttonEfemerasTK = document.querySelector("#btn-efemerasTK");
+var buttonProgenitores = document.querySelector("#btn-Progenitores");
+
+var contDamage = document.querySelector("#contDamage");
+var contArmasTK = document.querySelector("#contArmasTK");
+var contEfemerasTK = document.querySelector("#contEfemerasTK");
+var contProgenitores = document.querySelector("#contProgenitores");
+
+buttonContDamage.addEventListener('click', function () {
+
+    if (contDamage.style.display === 'block') {
+        contDamage.style.display = 'none';
+        contArmasTK.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    } else {
+        contDamage.style.display = 'block';
+        contArmasTK.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    }
+});
+
+buttonContArmasTK.addEventListener('click', function () {
+
+    if (contArmasTK.style.display === 'block') {
+        contArmasTK.style.display = 'none';
+        contDamage.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    } else {
+        contArmasTK.style.display = 'block';
+        contDamage.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    }
+});
+
+buttonEfemerasTK.addEventListener('click', function () {
+
+    if (contEfemerasTK.style.display === 'block') {
+        contEfemerasTK.style.display = 'none';
+        contArmasTK.style.display = 'none';
+        contDamage.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    } else {
+        contEfemerasTK.style.display = 'block';
+        contDamage.style.display = 'none';
+        contArmasTK.style.display = 'none';
+        contProgenitores.style.display = 'none';
+    }
+});
+
+buttonProgenitores.addEventListener('click', function () {
+
+    if (contProgenitores.style.display === 'block') {
+        contProgenitores.style.display = 'none';
+        contArmasTK.style.display = 'none';
+        contDamage.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+    } else {
+        contProgenitores.style.display = 'block';
+        contDamage.style.display = 'none';
+        contArmasTK.style.display = 'none';
+        contEfemerasTK.style.display = 'none';
+    }
+});
+
+/* armas tenet/kuva botoes  começa*/
+var buttonArmasTenet = document.querySelector("#armasTenet");
+var buttonArmasKuva = document.querySelector("#armasKuva");
+
+var cconteudoArmaTenet = document.querySelector("#conteudoArmaTenet");
+var cconteudoArmaKuva = document.querySelector("#conteudoArmaKuva");
+
+buttonArmasTenet.addEventListener('click', function () {
+
+    if (conteudoArmaTenet.style.display === 'block') {
+        conteudoArmaTenet.style.display = 'none';
+    } else {
+        conteudoArmaTenet.style.display = 'block';
+        cconteudoArmaKuva.style.display = 'none';
+    }
+});
+
+buttonArmasKuva.addEventListener('click', function () {
+
+    if (cconteudoArmaKuva.style.display === 'block') {
+        conteudoArmaTenet.style.display = 'none';
+    } else {
+        cconteudoArmaKuva.style.display = 'block';
+        cconteudoArmaTenet.style.display = 'none';
+    }
+});
+/* armas tenet/kuva botoes  termina*/

@@ -56,28 +56,6 @@ button {
     margin: 1%;
     width: 700px;
 }
-/* btn-menuL  inicia*/
-#btn-menuL {
-    width: 200px;
-    height: 50px;
-    margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
-    border-radius: 20px;
-    border: solid 1px white;
-    color: blueviolet;
-    font-weight: bolder;
-    text-decoration: none !important;
-    font-family: serif;
-    font-size: 20px;
-}
-#btn-menuL:hover {
-    width: 200px;
-    height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px magenta;
-    box-shadow: 0 0 15px magenta;
-}
-/* btn-menuL  termina*/
 /* campo de busca inicia */
 #campBusca {
     margin: 8px;
@@ -134,7 +112,7 @@ button {
     flex-direction: row;
     justify-content: center;
 }
-/* botoes inicia */
+/* botoes elementos inicia */
 #btnToxina {
     margin: 1px;
     border: solid 2px lime;
@@ -259,7 +237,7 @@ button {
 #btnViral:hover {
     text-shadow: 0 0 50px violet;
     box-shadow: 0 0 15px violet;
-    border-radius: 0 0 15px 0;
+    border-radius: 0;
 }
 #btnColisivo {
     margin: 1px;
@@ -275,7 +253,7 @@ button {
     box-shadow: 0 0 15px cadetblue;
     border-radius: 0 0 15px 0;
 }
-/* botoes termina */
+/* botoes elementos termina */
 /* Display */
 .Display {
     overflow-y:scroll;
@@ -292,3 +270,142 @@ button {
     background: transparent;
 }
 /* conteudo principal termina */
+/* troca de conteudo */
+#contDamage {
+    display: none;
+}
+#contArmasTK {
+    display: none;
+}
+#contEfemerasTK {
+    display: none;
+    color: blueviolet;
+}
+#contProgenitores {
+    display: none;
+    color: yellow;
+}
+/* reutilizar os atributos abaixo nos botoes do menuL*/
+/*#btn-menuL {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-menuL:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px magenta;
+    box-shadow: 0 0 15px magenta;
+}*/
+#btn-contDamage {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-contDamage:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px magenta;
+    box-shadow: 0 0 15px magenta;
+}
+#btn-armasTK {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-armasTK:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
+#btn-efemerasTK{
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: orangered;
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-efemerasTK:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px orangered;
+    box-shadow: 0 0 15px orangered;
+}
+#btn-Progenitores {}
+#btn-Progenitores:hover {}
+
+/* menu conteudo armas tenet/kuva */
+
+#armasTenet {
+    margin: 1px;
+    border: solid 2px lightblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: lightblue;
+    font-size: 15px;
+}
+#armasTenet:hover {
+    text-shadow: 0 0 50px lightblue;
+    box-shadow: 0 0 15px lightblue;
+    border-radius: 0 0 0 15px;
+}
+#armasKuva{
+    margin: 1px;
+    border: solid 2px red;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: red;
+    font-size: 15px;
+}
+#armasKuva:hover{
+    text-shadow: 0 0 50px red;
+    box-shadow: 0 0 15px red;
+    border-radius: 0 0 15px 0;
+}
+
+/* conteudo armas tenet/kuva */
+#conteudoArmaTenet {
+    border: solid 1px lightblue;
+    color: lightblue;
+}
+#conteudoArmaKuva {
+    border: solid 1px red;
+    color: red;
+}
