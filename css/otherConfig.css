@@ -38,3 +38,33 @@
     color: cadetblue;
     box-shadow: 0 0 10px cadetblue;
 }
+
+/*botoes dark mode e light mode abaixo*/
+#trocaTema {
+    margin: 3px;
+    height: 50px;
+    width: 84px;
+    left:0;
+    position: absolute;
+}
+#btnDarkMode {
+    margin: 1px;
+    font-size: 10px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 40px;
+    width: 40px;
+    color:red;
+    border: solid 1px red;
+    border-radius: 15px;
+}
+#btnLightMode {
+    margin: 1px;
+    font-size: 10px;
+    background: linear-gradient(#1c1c1c, darkslategray, #1c1c1c);
+    height: 40px;
+    width: 40px;
+    color: cyan;
+    border: solid 1px cyan;
+    border-radius: 15px;
+    float: right;
+}

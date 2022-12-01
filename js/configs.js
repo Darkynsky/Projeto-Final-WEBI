@@ -1,3 +1,26 @@
+var btnDarkMode = document.querySelector("#btnDarkMode");
+var btnLightMode = document.querySelector("#btnLightMode");
+var tema = document.querySelector("#theme");
+
+btnDarkMode.addEventListener('click', function toggleTheme() {
+    var tema = document.getElementsByTagName('link')[0];
+
+    if (tema.getAttribute('href') == '../css/DarkMode.css') {
+        tema.setAttribute('href', '../css/LightMode.css');
+    } else {
+        theme.setAttribute('href', '../css/DarkMode.css');
+    }
+});
+btnLightMode.addEventListener('click', function toggleTheme() {
+    var tema = document.getElementsByTagName('link')[0];
+
+    if (tema.getAttribute('href') == '../css/LightMode.css') {
+        tema.setAttribute('href', '../css/DarkMode.css');
+    } else {
+        theme.setAttribute('href', '../css/LightMode.css');
+    }
+});
+/* botões dos elementos inicia */
 var buttonToxina = document.querySelector("#btnToxina");
 var buttonGlacial = document.querySelector("#btnGlacial");
 var buttonEletrico = document.querySelector("#btnEletrico");

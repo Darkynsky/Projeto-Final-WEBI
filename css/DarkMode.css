@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    background: url(../img/fundo.png);
-    background-size: 500px;}
+    background: url(../img/fundoDark.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 button {
     cursor: pointer;
     text-align:center;
@@ -9,7 +11,7 @@ button {
 #menuTop {
     border-radius: 0 0 15px 15px;
     border: solid 1px transparent;
-    background-image: linear-gradient(black, #1c1c1c, black), radial-gradient(circle at bottom, magenta, cyan);
+    background-image: linear-gradient(black, #1c1c1c, black), radial-gradient(circle at bottom, red, #1c1c1c);
     background-origin: border-box;
     background-clip: content-box, border-box;
     height: 50px;
@@ -26,7 +28,7 @@ button {
 }
 #rodape {
     border: double 2px transparent;
-    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, magenta, cyan);
+    background-image: linear-gradient(black,black), radial-gradient(circle at bottom, red, #1c1c1c);
     background-origin: border-box;
     background-clip: content-box, border-box;
     border-radius: 15px 15px 0 0;
@@ -41,7 +43,10 @@ button {
 }
 #menuL {
     float: left;
-    background: linear-gradient(black, #1c1c1c,black);
+    border: double 2px transparent;
+    background: linear-gradient(black, #1c1c1c,black), radial-gradient(circle at bottom, red, #1c1c1c);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
     border-radius: 15px;
     width: 220px;
     margin: 1%;
@@ -65,7 +70,7 @@ button {
 #campBuscaInserir {
     width: 150px;
     height: 40px;
-    background: linear-gradient(#1c1c1c,grey 30px,#1c1c1c);
+    background: linear-gradient(#1c1c1c,purple 30px,#1c1c1c);
     border: solid 1px darkgray;
     border-radius: 20px 0 0 20px;
     text-align: center;
@@ -82,19 +87,16 @@ button {
     text-align: center;
     color: grey;
 }
-#campBuscaInserir:focus::placeholder {
-    text-align: center;
-    color: pink;
-}
+
 #confirmaBusca {
     float: right;
     width: 50px;
     height: 40px;
-    background: linear-gradient(grey,gainsboro 30px,grey);
+    background: black;
     border: solid 1px darkgray;
     border-radius: 0 20px 20px 0;
     color: grey;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #confirmaBusca:hover {
@@ -285,27 +287,6 @@ button {
     display: none;
     color: yellow;
 }
-/* reutilizar os atributos abaixo nos botoes do menuL*/
-/*#btn-menuL {
-    width: 200px;
-    height: 50px;
-    margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
-    border-radius: 20px;
-    border: solid 1px white;
-    color: blueviolet;
-    font-weight: bolder;
-    text-decoration: none !important;
-    font-family: serif;
-    font-size: 20px;
-}
-#btn-menuL:hover {
-    width: 200px;
-    height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px magenta;
-    box-shadow: 0 0 15px magenta;
-}*/
 #btn-contDamage {
     width: 200px;
     height: 50px;
@@ -313,7 +294,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: blueviolet;
+    color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -323,8 +304,8 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px magenta;
-    box-shadow: 0 0 15px magenta;
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
 }
 #btn-armasTK {
     width: 200px;
@@ -353,7 +334,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: orangered;
+    color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -363,11 +344,29 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px orangered;
-    box-shadow: 0 0 15px orangered;
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
 }
-#btn-Progenitores {}
-#btn-Progenitores:hover {}
+#btn-Progenitores {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-Progenitores:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
 
 /* menu conteudo armas tenet/kuva */
 
