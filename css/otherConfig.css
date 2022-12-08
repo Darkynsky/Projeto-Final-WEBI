@@ -1,5 +1,6 @@
 #conteudoToxina {
     color: lime;
+    text-shadow: 0 0 3px black;
     box-shadow: 0 0 10px lime;
 }
 #conteudoGlacial {
@@ -12,11 +13,13 @@
 }
 #conteudoRadiacao {
     color: yellow;
+    text-shadow: 0 0 3px black;
     box-shadow: 0 0 10px yellow;
 }
 #conteudoMagnetismo {
-    color: darkgray;
-    box-shadow: 0 0 10px darkgray;
+    color: #1c1c1c;
+    text-shadow: 0 0 3px white;
+    box-shadow: 0 0 10px #1c1c1c;
 }
 #conteudoIgnio {
     color:chocolate;
@@ -24,14 +27,17 @@
 }
 #conteudoGasoso {
     color: mediumaquamarine;
+    text-shadow: 0 0 3px black;
     box-shadow: 0 0 10px mediumaquamarine;
 }
 #conteudoCorrosivo {
     color: yellowgreen;
+    text-shadow: 0 0 3px black;
     box-shadow: 0 0 10px yellowgreen;
 }
 #conteudoViral {
     color: violet;
+    text-shadow: 0 0 3px black;
     box-shadow: 0 0 10px violet;
 }
 #conteudoColisivo {

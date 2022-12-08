@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url(../img/fundoDark.jpg) no-repeat;
+    background: url(../img/DarkMode/fundoDark.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -294,7 +294,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: rgb(14, 161, 197);
+    color: white;
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -304,8 +304,9 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    text-shadow: 0 0 30px red;
+    box-shadow: 0 0 15px red;
+    color: red;
 }
 #btn-armasTK {
     width: 200px;
@@ -314,7 +315,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: rgb(14, 161, 197);
+    color: white;
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -324,8 +325,9 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    text-shadow: 0 0 30px red;
+    box-shadow: 0 0 15px red;
+    color: red;
 }
 #btn-efemerasTK{
     width: 200px;
@@ -334,7 +336,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: rgb(14, 161, 197);
+    color: white;
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -344,8 +346,9 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    text-shadow: 0 0 30px red;
+    box-shadow: 0 0 15px red;
+    color: red;
 }
 #btn-Progenitores {
     width: 200px;
@@ -354,7 +357,7 @@ button {
     background: linear-gradient(black, #1c1c1c,black);
     border-radius: 20px;
     border: solid 1px white;
-    color: rgb(14, 161, 197);
+    color: white;
     font-weight: bolder;
     text-decoration: none !important;
     font-family: serif;
@@ -364,8 +367,9 @@ button {
     width: 200px;
     height: 50px;
     background: linear-gradient(#1c1c1c, black, #1c1c1c);
-    text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    text-shadow: 0 0 30px red;
+    box-shadow: 0 0 15px red;
+    color: red;
 }
 
 /* menu conteudo armas tenet/kuva */
@@ -407,4 +411,11 @@ button {
 #conteudoArmaKuva {
     border: solid 1px red;
     color: red;
+}
+#tableStyleTenet {
+    color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
 }

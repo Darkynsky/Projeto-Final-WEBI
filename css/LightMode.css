@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url(../img/fundoLight.png) no-repeat;
+    background: url(../img/LigthMode/fundoLight.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -264,7 +264,7 @@ button {
     border: solid 1px;
     border-radius: 20px;
     display: none;
-    background: linear-gradient(#1c1c1c,black, #1c1c1c);
+    background: linear-gradient(darkgray, white, darkgray);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -289,9 +289,9 @@ button {
     width: 200px;
     height: 50px;
     margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
+    background: linear-gradient(grey, white, grey);
     border-radius: 20px;
-    border: solid 1px white;
+    border: solid 1px magenta;
     color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
@@ -299,9 +299,10 @@ button {
     font-size: 20px;
 }
 #btn-contDamage:hover {
+    color: magenta;
     width: 200px;
     height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
     box-shadow: 0 0 15px rgb(78, 190, 235);
 }
@@ -309,9 +310,9 @@ button {
     width: 200px;
     height: 50px;
     margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
+    background: linear-gradient(grey, white, grey);
     border-radius: 20px;
-    border: solid 1px white;
+    border: solid 1px magenta;
     color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
@@ -319,9 +320,10 @@ button {
     font-size: 20px;
 }
 #btn-armasTK:hover {
+    color: magenta;
     width: 200px;
     height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
     box-shadow: 0 0 15px rgb(78, 190, 235);
 }
@@ -329,9 +331,9 @@ button {
     width: 200px;
     height: 50px;
     margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
+    background: linear-gradient(grey, white, grey);
     border-radius: 20px;
-    border: solid 1px white;
+    border: solid 1px magenta;
     color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
@@ -339,9 +341,10 @@ button {
     font-size: 20px;
 }
 #btn-efemerasTK:hover {
+    color: magenta;
     width: 200px;
     height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
     box-shadow: 0 0 15px rgb(78, 190, 235);
 }
@@ -349,9 +352,9 @@ button {
     width: 200px;
     height: 50px;
     margin: 8px;
-    background: linear-gradient(black, #1c1c1c,black);
+    background: linear-gradient(grey, white, grey);
     border-radius: 20px;
-    border: solid 1px white;
+    border: solid 1px magenta;
     color: rgb(14, 161, 197);
     font-weight: bolder;
     text-decoration: none !important;
@@ -359,9 +362,10 @@ button {
     font-size: 20px;
 }
 #btn-Progenitores:hover {
+    color: magenta;
     width: 200px;
     height: 50px;
-    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
     box-shadow: 0 0 15px rgb(78, 190, 235);
 }
@@ -399,10 +403,19 @@ button {
 
 /* conteudo armas tenet/kuva */
 #conteudoArmaTenet {
-    border: solid 1px lightblue;
-    color: lightblue;
+    border: solid 1px darkslategray;
+    color: darkslategray;
+    box-shadow: 0 0 30px lightblue;
 }
 #conteudoArmaKuva {
     border: solid 1px red;
     color: red;
+    box-shadow: 0 0 30px red;
+}
+#tableStyleTenet {
+    color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
 }
