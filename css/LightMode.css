@@ -70,7 +70,7 @@ button {
 #campBuscaInserir {
     width: 150px;
     height: 40px;
-    background: linear-gradient(#1c1c1c,purple 30px,#1c1c1c);
+    background: linear-gradient(#1c1c1c 20px,gray);
     border: solid 1px darkgray;
     border-radius: 20px 0 0 20px;
     text-align: center;
@@ -80,30 +80,30 @@ button {
 #campBuscaInserir:focus {
     outline: none;
     text-align: center;
-    color: white;
-    box-shadow: 0 0 30px blueviolet;
+    color: rgb(35, 255, 28);
+    box-shadow: 0 0 30px rgb(35, 255, 28);
 }
 #campBuscaInserir::placeholder {
     text-align: center;
-    color: grey;
+    color: rgb(194, 252, 119);
 }
 
 #confirmaBusca {
     float: right;
     width: 50px;
     height: 40px;
-    background: black;
+    background: darkcyan;
     border: solid 1px darkgray;
     border-radius: 0 20px 20px 0;
-    color: grey;
+    color: rgb(194, 252, 119);
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #confirmaBusca:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px blueviolet;
-    text-shadow: 0 0 30px blueviolet;
-    color: blueviolet;
+    box-shadow: 0 0 30px rgb(35, 255, 28);
+    text-shadow: 0 0 30px rgb(35, 255, 28);
+    color: rgb(35, 255, 28);
 }
 /* campo de busca termina */
 /* conteudo principal inicia */
@@ -304,7 +304,7 @@ button {
     height: 50px;
     background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(35, 255, 28);
 }
 #btn-armasTK {
     width: 200px;
@@ -325,7 +325,7 @@ button {
     height: 50px;
     background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(35, 255, 28);
 }
 #btn-efemerasTK{
     width: 200px;
@@ -346,7 +346,7 @@ button {
     height: 50px;
     background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(35, 255, 28);
 }
 #btn-Progenitores {
     width: 200px;
@@ -367,7 +367,7 @@ button {
     height: 50px;
     background: linear-gradient(grey, white, grey);
     text-shadow: 0 0 30px rgb(78, 190, 235);
-    box-shadow: 0 0 15px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(35, 255, 28);
 }
 
 /* menu conteudo armas tenet/kuva */
